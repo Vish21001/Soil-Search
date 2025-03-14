@@ -1,0 +1,5 @@
+import tkinter as tk
+color = tk.Tk()
+color.configure(bg="black")
+color.mainloop
+
