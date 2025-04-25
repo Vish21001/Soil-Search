@@ -1,8 +1,55 @@
-import tkinter as tk
-color = tk.Tk()
-color.configure(bg="black")
-color.mainloop
-
-<p style="color: white;">
-<p style="font-size:17px">
-<p style="font-family: Open-Sans,sans serif:">
+body{
+  padding: 25px;
+  background-color: #347521;
+}
+.header{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.title {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+.topheader{
+  color: white;
+  font-size: 30px;
+  font-family: Times New Roman,Sans-Serif;
+  margin-top: -35px;
+  padding: 25px;
+}
+.other_tabs1{
+  color: white; 
+  font-size: 25px;
+  font-family: Times New Roman,Sans-Serif;
+  margin-top: -35px;
+  padding: 25px;
+  list-style-type: none;
+ display: flex;
+  flex-wrap: nowrap;
+}
+{
+  About Us
+}
+.tab{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-wrap: nowrap;
+}
+#introduction{
+  color: white;
+  font-size: 20px;
+  font-family: Times New Roman,Sans-Serif;
+  margin-top: -35px;
+  padding: 25px;
+}
+#tree1{
+  margin-top: -40px;
+  padding: 25px;
+  width: 250px;
+}
+#plant1{
+  margin-top: -20px;
+  padding: 25px;
+  width: 250px;
+  height: 250px;
