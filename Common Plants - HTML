@@ -1,0 +1,199 @@
+<!-- Starts the Program -->
+<!DOCTYPE html>
+<!-- HTML Folder -->
+<html>
+  <head>
+    <!-- Tab Title: Common Plants -->
+    <title>Common Plants</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Common Plants</h1>
+    <!-- Description of Common Plants -->
+    <p>Here are some common plants you might find:</p>
+    <ul>
+
+  <!-- Lists of Common Plants -->
+   
+    <!-- Trees -->
+      <li>Red Maple</li>
+      <li>Flowering Dogwood</li>
+      <li>Mountain Laurel</li>
+      <li>American Holly</li>
+      <li>White Oak</li>
+      <li>Black Oak</li>
+      <li>Norway Maple</li>
+      <li>Japanese Maple</li>
+      <li>Pitch Pine</li>
+      <li>Shortleaf Pine</li>
+      <li>Virginia Pine</li>
+
+      <!-- Flowers -->
+      <li>Purple Coneflower</li>
+      <li>Black-Eyed Susan</li>
+      <li>Butterfly Weed</li>
+      <li>Virginia Bluebells</li>
+      <li>Hydrangea</li>
+      <li>Common Yarrow</ul>li>
+      <li>Violet</li>
+      <li>Red Cardinal</li>
+      <li>Wild Geranium</li>
+      
+      <!-- Pears -->
+      <li>Bradford Pear</li>
+      <li>Arborvitae</li>
+      <li>Azaleas</li>
+      <li>Rose of Sharon</li>
+
+      <!-- Blueberries -->
+      <li>Northern highbush blueberry</li>
+      <li>Duke Blueberry</li>
+      <li>Bluecrop Blueberry</li>
+      <li>Elliott Blueberry</li>
+      <li>Lowbush Blueberry</li>
+      <li>Southern Highbush Blueberry</li>
+      <li>Rabbiteye Blueberry</li>
+
+      <!-- Peaches -->
+      <li>Redhaven Peach</li>
+      <li>Elberta Peach</li>
+      <li>Loring Peach</li>
+      <li>July Prince Peach</li>
+      <li>Flamin' Fury PF 13 Peach/li>
+
+     <!-- Tomatoes -->
+      <li>Rutgers Tomatoes</li>
+      <li>Southern Highbush Tomatoes</li>
+      <li>Beefsteak Tomatoes</li>
+      <li>Heirloom Tomatoes</li>
+      <li>Grape Tomatoes</li>
+      <li>Roma Tomatoes</li>
+      <li>Ramapo Tomatoes</li>
+      <li>Scarlet Red Tomatoes</li>
+      <li>Rutgers 250 Tomatoes</li>
+      <li>Sunbrite Tomatoes</li>
+
+      <!-- Capsicums -->
+      <li>Bell Capsicum</li>
+      <li>Jalapeno Capsicum</li>
+      <li>Banana Capsicum</li>
+      <li>Anaheim Capsicum</li>
+      <li>Cayenne Capsicum</li>
+      <li>Poblano Capsicum</li>
+      <li>Shishito Capsicum</li>
+      <li>Ornamental Capsicum</li>
+      <li>Habanero Capsicum</li>
+
+      <!-- Cranberry -->
+      <li>American Cranberry</li>
+      <li>Early Black Cranberry</li>
+      <li>Small Cranberries</li>
+
+      <!-- Cabbage -->
+      <li>Early Jersey Wakefield Cabbage</li>
+      <li>Early Round Dutch Cabbage</li>
+      <li>Golden Acre Cabbage</li>
+      <li>Flat Dutch Cabbage</li>
+      <li>Late Flat Dutch Cabbage</li>
+      <li>Perfection Savoy Cabbage</li>
+      <li>Melissa Savoy Cabbage</li>
+      <li>Napa Cabbage</li>
+      <li>Pak choi Cabbage</li>
+      <li>Skunk cabbage</li>
+
+      <!-- Squash -->
+      <li>Butternut Squash</li>
+      <li>Acorn Squash</li> 
+      <li>Spaghetti Squash</li>
+      <li>Delicata Squash</li>
+      <li>Hubbard Squash</li>
+      <li>Zucchini Squash</li>
+      <li>Yellow Squash</li>
+      <li>Pattypan Squash</li>
+
+      <!-- Cucumbers -->
+      <li>Slicing Cucumbers</li>
+      <li>Pickling Cucumbers</li>
+      <li>English Cucumbers</li>
+      <li>Persian Cucumbers</li>
+      <li>Armenian Cucumbers</li>
+      <li>Lemon Cucumbers</li>
+      <li>Scab Cucumbers</li>
+      <li>Powdery Mildew</li>
+      <li>Bacterial Wilt</li>
+      
+      <!-- Asparagus -->
+      <li>Jersey Knight Asparagus</li>
+      <li>Jersey Giant Asparagus</li>
+      <li>Jersey Supreme Asparagus</li>
+      <li>Mary Washington Asparagus</li>
+      <li>Purple Passion Asparagus</li>
+
+      <!-- Lettuce -->
+      <li>Iceberg Lettuce</li>
+      <li>Romaine Lettuce</li>
+      <li>Leaf Lettuce</li>
+      <li>Prickly Lettuce</li>
+      <li>Tall-Blue Lettuce</li>
+      <li>Tall-Wild Lettuce</li>
+
+      <!-- Beans -->
+      <li>Green Beans</li>
+      <li>Provider Beans</li>
+      <li>Blue Lake Beans</li>
+      <li>Contender Beans</li>
+      <li>Roma II Beans</li>
+      <li>Kentucky Wonder Beans</li>
+      <li>Blue Lake Pole Beans</li>
+      <li>Bush Limas Beans</li>
+      <li>Pole Limas Beans</li>
+      <li>Dry Beans</li>
+      <li>Wax Beans</li>
+
+
+      <!-- Carrots -->
+      <li>Campbell Soup Variety 1374 Carrots</li>
+      <li>Danvers 126 Carrots</li>
+      <li>Spartan Bonus 80 Carrots</li>
+      <li>Nantes types Carrots</li>
+      <li>Napoli Carrots</li>
+      <li>Mokum Carrots</li>
+      <li>Nantindo Carrots</li>
+      <li>Bolero Carrots</li>
+      <li>Goldfinger Carrots</li>
+      <li>Envy Carrots</li>
+      <li>Maverick Carrots</li>
+
+      <!-- Sweet Corn -->
+      <li>Silver Queen Sweet Corn</li>
+      <li>Luther Hill Sweet Corn</li>
+      <li>Stowell's Evergreen Sweet Corn</li>
+      <li>Incredible Sweet Corn</li>
+      <li>Bodacious RM Sweet Corn</li>
+      <li>Sugar Buns Sweet Corn</li>
+      <li>Wild Violet Sweet Corn</li>
+
+      <!-- Apples -->
+      <li>Gala Apple</li>
+      <li>Honeycrisp Apple</li>
+      <li>Fuji Apple</li>
+      <li>Granny Smith Apple</li>
+      <li>Golden Delicious Apple</li>
+      <li>Red Delicious Apple</li>
+      <li>McIntosh Apple</li>
+      <li>Ginger Gold Apple</li>
+      <li>Winesap Apple</li>
+
+      <!-- Grass -->
+      <li>Kentucky Bluegrass</li>
+      <li>Japanese Stiltgrass</li>
+      <li>Perennial Ryegrass</li>
+      <li>Fine Fescues</li>
+      <li>Tall Fescue</li>
+      <li>Zoysiagrass</li>
+
+    </ul>
+  </body>
+</html>
