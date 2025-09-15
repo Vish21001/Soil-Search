@@ -1,0 +1,28 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Styles Common Plants body */
+body {
+  background-color: #347521;
+  font-family: 'Times New Roman', Sans-Serif;
+  min-height: 100vh;
+  color: white;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Styles Common Plants title */
+title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #4a8c57;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}   
