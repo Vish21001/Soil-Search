@@ -1,0 +1,19 @@
+<!-- Starts Program -->
+<!DOCTYPE html>
+<!-- HTML Folder -->
+<html>
+  <head>
+    <!-- Sets Title as About Us -->
+<title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Soil Search is website title and About Us is tab title -->
+    <title>Soil Search ! - About Us</title> 
+<link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- Description about me -->
+  <body>
+    My name is Vishisht Agarwal and I am a ninth grader at Millburn High School. I have a passion for coding and technology. I have been coding for about 1 year now and I love to create new projects and learn new things. I am also very interested in environmental science and I wanted to create a project that would help people take care of their plants and trees. I hope you enjoy using Soil Search and find it helpful!
+  </body>
+</html>
+    
