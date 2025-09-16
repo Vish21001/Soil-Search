@@ -134,21 +134,71 @@ body {
     cursor: default;
   }
 
-  /* Image of first tree */
-  #tree1
-  {
-    margin-top: 200px;
-    width: 250px;
-    height: 250px;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-
   /* Image of first plant */
   #plant1
   {
     margin-top: 40px;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
+}
+#tree1
+{
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+  margin-left: 750px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.subtitle
+{
+  color: white;
+    font-size: 20px;
+    font-family: Times New Roman,Sans-Serif;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.5;
+    background-color: #4a8c57;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.1);
+    user-select: none;
+    cursor: default;
+}
+.description
+{
+  color: white;
+    font-size: 20px;
+    font-family: Times New Roman,Sans-Serif;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 1.5;
+    background-color: #4a8c57;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.1);
+    user-select: none;
+    cursor: default;
 }
 
 /* Changes mouse pointer to clicking pointer of About Us tab */
