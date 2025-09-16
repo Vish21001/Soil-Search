@@ -4,6 +4,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Styles for backdrop content */
+.backdrop-content {
+  background-color: #347521;
+  font-family: 'Times New Roman', Sans-Serif;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+}
 /* Styles About Us body */
 body {
   background-color: #347521;
