@@ -18,181 +18,2561 @@
   <!-- Lists of Common Plants -->
    
     <!-- Trees -->
-      <li>Red Maple</li>
-      <li>Flowering Dogwood</li>
-      <li>Mountain Laurel</li>
-      <li>American Holly</li>
-      <li>White Oak</li>
-      <li>Black Oak</li>
-      <li>Norway Maple</li>
-      <li>Japanese Maple</li>
-      <li>Pitch Pine</li>
-      <li>Shortleaf Pine</li>
-      <li>Virginia Pine</li>
+     <div class = "trees">
+       
+      <li>Red Maple
+          Scientific Name: Acer rubrum
+          Family: Sapindaceae
+          Type: Deciduous Tree
+          Height: 40-70 feet
+          Spread: 25-50 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Spring
+          Flower Color: Red
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, street tree, ornamental tree
+          Treatment: Water regularly, prune dead branches, monitor for pests.
+          <div class="image-gallery">
+          <div class="image-container">
+              <img id="Red Maple" src="<img src="" alt="Vibrant red maple leaves during autumn">/>
+            </div>
+          </div>
+      </li>
+      
+      <li>Mountain Laurel
+          Scientific Name: Kalmia latifolia
+          Treatment: Water moderately, avoid alkaline soils, prune after flowering.
+          Family: Ericaceae
+          Type: Evergreen Shrub
+          Height: 5-15 feet
+          Spread: 5-10 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Late spring to early summer
+          Flower Color: Pink, white
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental shrub, foundation planting, woodland garden
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Mountain Laurel" src="" alt="A close-up of pink and white mountain laurel flowers"/>
+            </div>
+          </div>
+      </li>
+      <li>American Holly
+          Scientific Name: Ilex opaca
+          Family: Aquifoliaceae
+          Type: Evergreen Tree
+          Height: 15-30 feet
+          Spread: 10-20 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: White
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Ornamental tree, hedge, privacy screen
+          Treatment: Water deeply, mulch base, monitor for leaf spot.
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="American Holly" src="<img src="" alt="Mountain Laurel flowers"" width="500">
+" />
+            </div>
+          </div>
+      </li>
+      <li>White Oak
+          Scientific Name: Quercus alba
+          Treatment: Water during drought, avoid soil compaction, prune in winter.
+          Family: Fagaceae
+          Type: Deciduous Tree
+          Height: 50-80 feet
+          Spread: 50-80 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Spring
+          Flower Color: Greenish-yellow
+          Fall Color: Red, brown
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, street tree, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="White Oak" src="" alt="White Oak leaves" width="500"/>
+            </div>
+          </div>
+      </li>
+      <li>Black Oak
+          Scientific Name: Quercus velutina
+          Treatment: Water during dry spells, inspect for oak wilt, prune dead wood.
+          Family: Fagaceae
+          Type: Deciduous Tree
+          Height: 50-70 feet
+          Spread: 40-60 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Spring
+          Flower Color: Yellow-green
+          Fall Color: Red, brown
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, street tree, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Black Oak" src="" alt="A Black Oak tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
+      <li>Norway Maple
+          Scientific Name: Acer platanoides
+          Treatment: Water regularly, control aphids, prune for shape.
+          Family: Sapindaceae
+          Type: Deciduous Tree
+          Height: 40-50 feet
+          Spread: 30-40 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-7
+          Bloom Time: Spring
+          Flower Color: Yellow-green
+          Fall Color: Yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, street tree, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Norway Maple" src="" alt="A Norway Maple tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
+      <li>Japanese Maple
+          Scientific Name: Acer palmatum
+          Treatment: Water consistently, protect from strong winds, prune lightly.
+          Family: Sapindaceae
+          Type: Deciduous Tree
+          Height: 15-25 feet
+          Spread: 15-25 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-8
+          Bloom Time: Spring
+          Flower Color: Red, purple, green
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Ornamental tree, shade tree, bonsai
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Japanese Maple" src="" alt="A Japanese maple tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
+      <li>Pitch Pine
+          Scientific Name: Pinus rigida
+          Treatment: Water in dry periods, monitor for pine beetles, avoid root disturbance.
+          Family: Pinaceae
+          Type: Evergreen Tree
+          Height: 30-60 feet
+          Spread: 20-40 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, sandy soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Spring
+          Flower Color: Yellow-green
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, windbreak, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Pitch Pine" src="" alt="A Pitch Pine tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
+      <li>Shortleaf Pine
+          Scientific Name: Pinus echinata
+          Treatment: Water in drought, check for needle blight, mulch base.
+          Family: Pinaceae
+          Type: Evergreen Tree
+          Height: 50-80 feet
+          Spread: 25-40 feet
+          Growth Rate: Moderate to fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Yellow-green
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, windbreak, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Shortleaf Pine" src="" alt="A Shortleaf Pine tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
+      <li>Virginia Pine
+          Scientific Name: Pinus virginiana
+          Treatment: Water in dry spells, monitor for pine sawfly, prune lower branches.
+          Family: Pinaceae
+          Type: Evergreen Tree
+          Height: 30-50 feet
+          Spread: 15-25 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, sandy or rocky soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Spring
+          Flower Color: Yellow-green
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Shade tree, windbreak, ornamental tree
+          <div class="image-gallery">
+            <div class="image-container">
+              <img id="Virginia Pine" src="" alt="A Virginia Pine tree and its leaves"/>
+" />
+            </div>
+          </div>
+      </li>
 
       <!-- Flowers -->
-      <li>Purple Coneflower</li>
-      <li>Black-Eyed Susan</li>
-      <li>Butterfly Weed</li>
-      <li>Virginia Bluebells</li>
-      <li>Hydrangea</li>
-      <li>Common Yarrow</ul>li>
-      <li>Violet</li>
-      <li>Red Cardinal</li>
-      <li>Wild Geranium</li>
-      
+      <div class = "flowers">
+      <li>Flowering Dogwood
+          Scientific Name: Cornus florida
+          Treatment: Water regularly, protect from powdery mildew, mulch base.
+          Family: Cornaceae
+          Type: Deciduous Tree
+          Height: 15-30 feet
+          Spread: 15-30 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Well-drained, acidic soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, purple
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Ornamental tree, shade tree, foundation planting
+       </li>
+      <li>Purple Coneflower
+          Scientific Name: Echinacea purpurea
+          Treatment: Water weekly, deadhead spent flowers, divide clumps every few years.
+          Family: Asteraceae
+          Type: Perennial Flower
+          Height: 2-5 feet
+          Spread: 1-2 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Flower Color: Purple, pink, white
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies, seeds for birds
+          Common Uses: Ornamental flower, cut flower, medicinal plant
+      </li>
+      <li>Black-Eyed Susan
+          Scientific Name: Rudbeckia hirta
+          Treatment: Water weekly, remove faded blooms, divide every 3 years.
+          Family: Asteraceae
+          Type: Perennial Flower
+          Height: 2-3 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Flower Color: Yellow with dark brown center
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies, seeds for birds
+          Common Uses: Ornamental flower, cut flower, wildflower garden
+      </li>
+      <li>Butterfly Weed
+          Scientific Name: Asclepias tuberosa
+          Treatment: Water sparingly, avoid over-fertilizing, cut back in fall.
+          Family: Apocynaceae
+          Type: Perennial Flower
+          Height: 1-3 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer
+          Flower Color: Orange, yellow, red
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies, host plant for monarch butterflies
+          Common Uses: Ornamental flower, cut flower, wildflower garden
+      </li>
+      <li>Virginia Bluebells
+          Scientific Name: Mertensia virginica
+          Treatment: Water during dry spells, allow foliage to die back naturally.
+          Family: Boraginaceae
+          Type: Perennial Flower
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-8
+          Bloom Time: Spring
+          Flower Color: Blue, pink, white
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental flower, cut flower, woodland garden
+      </li>
+      <li>Hydrangea
+          Scientific Name: Hydrangea macrophylla
+          Treatment: Water deeply, fertilize in spring, prune after flowering.
+          Family: Hydrangeaceae
+          Type: Deciduous Shrub
+          Height: 3-6 feet
+          Spread: 3-6 feet
+          Growth Rate: Moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Summer to fall
+          Flower Color: Pink, blue, white, purple
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental shrub, foundation planting, cut flower
+      </li>
+      <li>Common Yarrow
+          Scientific Name: Achillea millefolium
+          Treatment: Water moderately, deadhead for more blooms, divide clumps.
+          Family: Asteraceae
+          Type: Perennial Flower
+          Height: 2-3 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer
+          Flower Color: White, yellow, pink
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental flower, cut flower, medicinal plant
+      </li>
+          Scientific Name: Achillea millefolium
+          Family: Asteraceae
+          Type: Perennial Flower
+          Height: 2-3 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer
+          Flower Color: White, yellow, pink
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental flower, cut flower, medicinal plant
+      </li>
+      <li>Violet
+          Scientific Name: Viola spp.
+          Treatment: Water regularly, thin crowded plants, protect from slugs.
+          Family: Violaceae
+          Type: Perennial Flower
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Spring
+          Flower Color: Purple, blue, white, yellow
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental flower, ground cover, woodland garden
+      </li>
+      <li>Red Cardinal
+          Scientific Name: Lobelia cardinalis
+          Treatment: Keep soil moist, cut back after flowering, divide clumps.
+          Family: Campanulaceae
+          Type: Perennial Flower
+          Height: 2-4 feet
+          Spread: 1-2 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer
+          Flower Color: Red
+          Fall Color: Green
+          Wildlife Value: Provides nectar for hummingbirds
+          Common Uses: Ornamental flower, rain garden, wetland garden
+      </li>
+      <li>Wild Geranium
+          Scientific Name: Geranium maculatum
+          Treatment: Water during dry spells, deadhead for more blooms, divide clumps.
+          Family: Geraniaceae
+          Type: Perennial Flower
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-8
+          Bloom Time: Spring
+          Flower Color: Pink, purple
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental flower, woodland garden, ground cover
+      </li>
+
       <!-- Pears -->
-      <li>Bradford Pear</li>
-      <li>Arborvitae</li>
-      <li>Azaleas</li>
-      <li>Rose of Sharon</li>
+      <li>Bradford Pear
+          Scientific Name: Pyrus calleryana 'Bradford'
+          Treatment: Water in drought, prune for structure, monitor for fire blight.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 30-40 feet
+          Spread: 20-30 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: White
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Ornamental tree, street tree, shade tree
+      </li>
+      <li>Arborvitae
+          Scientific Name: Thuja occidentalis
+          Treatment: Water deeply, mulch base, monitor for bagworms.
+          Family: Cupressaceae
+          Type: Evergreen Tree
+          Height: 10-20 feet
+          Spread: 3-5 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Moist, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring
+          Flower Color: Greenish-yellow
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Hedge, privacy screen, ornamental tree
+      </li>
+      <li>Azaleas
+          Scientific Name: Rhododendron spp.
+          Treatment: Water regularly, use acidic fertilizer, prune after flowering.
+          Family: Ericaceae
+          Type: Deciduous or Evergreen Shrub
+          Height: 3-6 feet
+          Spread: 3-6 feet
+          Growth Rate: Moderate
+          Sun Exposure: Partial shade to full sun
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink, red, white, purple
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental shrub, foundation planting, woodland garden
+      </li>
+      <li>Rose of Sharon
+          Scientific Name: Hibiscus syriacus
+          Treatment: Water weekly, prune in early spring, monitor for aphids.
+          Family: Malvaceae
+          Type: Deciduous Shrub
+          Height: 8-12 feet
+          Spread: 6-10 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Summer to fall
+          Flower Color: Pink, red, white, purple, blue
+          Fall Color: Green
+          Wildlife Value: Provides nectar for bees and butterflies
+          Common Uses: Ornamental shrub, hedge, privacy screen
+      </li>
 
       <!-- Blueberries -->
-      <li>Northern highbush blueberry</li>
-      <li>Duke Blueberry</li>
-      <li>Bluecrop Blueberry</li>
-      <li>Elliott Blueberry</li>
-      <li>Lowbush Blueberry</li>
-      <li>Southern Highbush Blueberry</li>
-      <li>Rabbiteye Blueberry</li>
+      <li>Northern highbush blueberry
+          Scientific Name: Vaccinium corymbosum
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-12 feet
+          Spread: 6-12 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
+      <li>Duke Blueberry
+          Scientific Name: Vaccinium corymbosum 'Duke'
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 5-7 feet
+          Spread: 5-7 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
+      <li>Bluecrop Blueberry
+          Scientific Name: Vaccinium corymbosum 'Bluecrop'
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 5-6 feet
+          Spread: 5-6 feet
+          Growth Rate: Moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
+      <li>Elliott Blueberry
+          Scientific Name: Vaccinium corymbosum 'Elliott'
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-8 feet
+          Spread: 6-8 feet
+          Growth Rate: Slow to moderate
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
+      <li>Lowbush Blueberry
+          Scientific Name: Vaccinium angustifolium
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-12 inches
+          Spread: 2-4 feet
+          Growth Rate: Slow
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ground cover, ornamental shrub
+      </li>
+      <li>Southern Highbush Blueberry
+          Scientific Name: Vaccinium corymbosum hybrids
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 4-6 feet
+          Spread: 4-6 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 7-10
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
+      <li>Rabbiteye Blueberry
+          Scientific Name: Vaccinium ashei
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-10 feet
+          Spread: 6-10 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 7-9
+          Bloom Time: Spring
+          Flower Color: White, pink
+          Fall Color: Red, orange, yellow
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, hedge
+      </li>
 
       <!-- Peaches -->
-      <li>Redhaven Peach</li>
-      <li>Elberta Peach</li>
-      <li>Loring Peach</li>
-      <li>July Prince Peach</li>
-      <li>Flamin' Fury PF 13 Peach/li>
+      </div class = "peaches">
+      <li>Redhaven Peach
+          Scientific Name: Prunus persica 'Redhaven'
+          Treatment: Water deeply, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 15-20 feet
+          Spread: 15-20 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental tree, shade tree
+      </li>
+      <li>Elberta Peach
+          Scientific Name: Prunus persica 'Elberta'
+          Treatment: Water deeply, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 15-20 feet
+          Spread: 15-20 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental tree, shade tree
+      </li>
+      <li>Loring Peach
+          Scientific Name: Prunus persica 'Loring'
+          Treatment: Water deeply, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 15-20 feet
+          Spread: 15-20 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental tree, shade tree
+      </li>
+      <li>July Prince Peach
+          Scientific Name: Prunus persica 'July Prince'
+          Treatment: Water deeply, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 15-20 feet
+          Spread: 15-20 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental tree, shade tree
+      </li>
+      <li>Flamin' Fury PF 13 Peach
+          Scientific Name: Prunus persica 'Flamin' Fury PF 13'
+          Treatment: Water deeply, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 15-20 feet
+          Spread: 15-20 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Spring
+          Flower Color: Pink
+          Fall Color: Green
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Edible fruit, ornamental tree, shade tree
+      </li>
 
      <!-- Tomatoes -->
-      <li>Rutgers Tomatoes</li>
-      <li>Southern Highbush Tomatoes</li>
-      <li>Beefsteak Tomatoes</li>
-      <li>Heirloom Tomatoes</li>
-      <li>Grape Tomatoes</li>
-      <li>Roma Tomatoes</li>
-      <li>Ramapo Tomatoes</li>
-      <li>Scarlet Red Tomatoes</li>
-      <li>Rutgers 250 Tomatoes</li>
-      <li>Sunbrite Tomatoes</li>
+      <div class = "tomatoes">
+      <li>Rutgers Tomatoes
+          Scientific Name: Solanum lycopersicum 'Rutgers'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Southern Highbush Tomatoes
+          Scientific Name: Solanum lycopersicum hybrids
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 7-10
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red, yellow, orange, purple
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Beefsteak Tomatoes
+          Scientific Name: Solanum lycop
+          ericum 'Beefsteak'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Heirloom Tomatoes
+          Scientific Name: Solanum lycopersicum varieties
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Various (red, yellow, orange, purple, green)
+          Fruit Size: Small to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Grape Tomatoes
+          Scientific Name: Solanum lycopersicum 'Grape' 
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Roma Tomatoes
+          Scientific Name: Solanum lycopersicum 'Roma'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Ramapo Tomatoes
+          Scientific Name: Solanum lycopersicum 'Ramapo'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Scarlet Red Tomatoes
+          Scientific Name: Solanum lycopersicum 'Scarlet Red'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Rutgers 250 Tomatoes
+          Scientific Name: Solanum lycopersicum 'Rutgers 250'
+          Treatment: Water regularly, stake plants, fertilize monthly.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Sunbrite Tomatoes
+          Scientific Name: Solanum lycopersicum 'Sunbrite'
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 3-4 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
 
       <!-- Capsicums -->
-      <li>Bell Capsicum</li>
-      <li>Jalapeno Capsicum</li>
-      <li>Banana Capsicum</li>
-      <li>Anaheim Capsicum</li>
-      <li>Cayenne Capsicum</li>
-      <li>Poblano Capsicum</li>
-      <li>Shishito Capsicum</li>
-      <li>Ornamental Capsicum</li>
-      <li>Habanero Capsicum</li>
+      </div class = "capsicums">
+      <li>Bell Capsicum
+          Scientific Name: Capsicum annuum 'Bell'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Green, red, yellow, orange, purple
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Jalapeno Capsicum
+          Scientific Name: Capsicum annuum 'Jalapeno'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Green, red
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Banana Capsicum
+          Scientific Name: Capsicum annuum 'Banana'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Yellow, red, orange
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Anaheim Capsicum
+          Scientific Name: Capsicum annuum 'Anaheim'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Green, red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Cayenne Capsicum
+          Scientific Name: Capsicum annuum 'Cayenne'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Red
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Poblano Capsicum
+          Scientific Name: Capsicum annuum 'Poblano'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Green, red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Shishito Capsicum
+          Scientific Name: Capsicum annuum 'Shishito'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Green, red
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Ornamental Capsicum
+          Scientific Name: Capsicum annuum 'Ornamental'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Various (red, yellow, orange, purple)
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Habanero Capsicum
+          Scientific Name: Capsicum chinense 'Habanero'
+          Treatment: Water regularly, fertilize monthly, stake if needed.
+          Family: Solanaceae
+          Type: Annual Vegetable
+          Height: 1-2 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-11
+          Bloom Time: Summer
+          Flower Color: White
+          Fruit Color: Orange, red, yellow
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
 
       <!-- Cranberry -->
-      <li>American Cranberry</li>
-      <li>Early Black Cranberry</li>
-      <li>Small Cranberries</li>
+      </div class = "cranberry">
+      <li>American Cranberry
+          Scientific Name: Vaccinium macrocarpon
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-12 inches
+          Spread: 2-4 feet
+          Growth Rate: Slow
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring to early summer
+          Flower Color: Pink, white
+          Fruit Color: Red
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, ground cover
+      </li>
+      <li>Early Black Cranberry
+          Scientific Name: Vaccinium macrocarpon 'Early Black'
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-12 inches
+          Spread: 2-4 feet
+          Growth Rate: Slow
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring to early summer
+          Flower Color: Pink, white
+          Fruit Color: Dark red to black
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, ground cover
+      </li>
+      <li>Small Cranberries
+          Scientific Name: Vaccinium oxycoccos
+          Treatment: Water regularly, mulch with pine needles, prune in late winter.
+          Family: Ericaceae
+          Type: Deciduous Shrub
+          Height: 6-12 inches
+          Spread: 2-4 feet
+          Growth Rate: Slow
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Acidic, well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Spring to early summer
+          Flower Color: Pink, white
+          Fruit Color: Red
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental shrub, ground cover
+      </li>
 
       <!-- Cabbage -->
-      <li>Early Jersey Wakefield Cabbage</li>
-      <li>Early Round Dutch Cabbage</li>
-      <li>Golden Acre Cabbage</li>
-      <li>Flat Dutch Cabbage</li>
-      <li>Late Flat Dutch Cabbage</li>
-      <li>Perfection Savoy Cabbage</li>
-      <li>Melissa Savoy Cabbage</li>
-      <li>Napa Cabbage</li>
-      <li>Pak choi Cabbage</li>
-      <li>Skunk cabbage</li>
+      </div class = "cabbage">
+      <li>Early Jersey Wakefield Cabbage
+          Scientific Name: Brassica oleracea var. capitata 'Early Jersey Wakefield'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, purple
+          Head Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Early Round Dutch Cabbage
+          Scientific Name: Brassica oleracea var. capitata 'Early Round Dutch'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, purple
+          Head Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Golden Acre Cabbage
+          Scientific Name: Brassica oleracea var. capitata 'Golden Acre'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, yellow
+          Head Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Flat Dutch Cabbage
+          Scientific Name: Brassica oleracea var. capitata 'Flat Dutch'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, purple
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Late Flat Dutch Cabbage
+          Scientific Name: Brassica oleracea var. capitata 'Late Flat Dutch'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, purple
+          Head Size: Large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Perfection Savoy Cabbage
+          Scientific Name: Brassica oleracea var. sabauda 'Perfection Savoy'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, crinkled
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Melissa Savoy Cabbage
+          Scientific Name: Brassica oleracea var. sabauda 'Melissa'
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, crinkled
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Napa Cabbage
+          Scientific Name: Brassica rapa subsp. pekinensis
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Light green, crinkled
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Pak choi Cabbage
+          Scientific Name: Brassica rapa subsp. chinensis
+          Treatment: Water regularly, fertilize monthly, protect from cabbage worms.
+          Family: Brassicaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Dark green, smooth
+          Head Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Skunk cabbage
+          Scientific Name: Symplocarpus foetidus
+          Treatment: Keep soil wet, avoid disturbance, allow natural growth.
+          Family: Araceae
+          Type: Perennial Herb
+          Height: 12-24 inches
+          Spread: 12-24 inches
+          Growth Rate: Fast
+          Sun Exposure: Partial to full shade
+          Soil Type: Wet, boggy soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Early spring
+          Leaf Color: Dark green
+          Flower Color: Purple, green
+          Wildlife Value: Provides habitat for amphibians and insects
+          Common Uses: Naturalizing, wetland restoration
+      </li>
 
       <!-- Squash -->
-      <li>Butternut Squash</li>
-      <li>Acorn Squash</li> 
-      <li>Spaghetti Squash</li>
-      <li>Delicata Squash</li>
-      <li>Hubbard Squash</li>
-      <li>Zucchini Squash</li>
-      <li>Yellow Squash</li>
-      <li>Pattypan Squash</li>
+      </div class = "squash">
+      <li>Butternut Squash
+          Scientific Name: Cucurbita moschata 'Butternut'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Tan
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Acorn Squash
+          Scientific Name: Cucurbita pepo 'Acorn'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green, orange
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li> 
+      <li>Spaghetti Squash
+          Scientific Name: Cucurbita pepo 'Spaghetti'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Delicata Squash
+          Scientific Name: Cucurbita pepo 'Delicata'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Yellow with green stripes
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Hubbard Squash
+          Scientific Name: Cucurbita maxima 'Hubbard'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green, orange, blue-gray
+          Fruit Size: Large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Zucchini Squash
+          Scientific Name: Cucurbita pepo 'Zucchini'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green, yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Yellow Squash
+          Scientific Name: Cucurbita pepo 'Yellow'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Pattypan Squash
+          Scientific Name: Cucurbita pepo 'Pattypan'
+          Treatment: Water regularly, fertilize monthly, protect from squash bugs.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green, yellow, white
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
 
       <!-- Cucumbers -->
-      <li>Slicing Cucumbers</li>
-      <li>Pickling Cucumbers</li>
-      <li>English Cucumbers</li>
-      <li>Persian Cucumbers</li>
-      <li>Armenian Cucumbers</li>
-      <li>Lemon Cucumbers</li>
-      <li>Scab Cucumbers</li>
-      <li>Powdery Mildew</li>
-      <li>Bacterial Wilt</li>
+       <div class = "cucumbers">
+      <li>Slicing Cucumbers
+          Scientific Name: Cucumis sativus 'Slicing'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Pickling Cucumbers
+          Scientific Name: Cucumis sativus 'Pickling'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>English Cucumbers
+          Scientific Name: Cucumis sativus 'English'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green
+          Fruit Size: Long, slender
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Persian Cucumbers
+          Scientific Name: Cucumis sativus 'Persian'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green
+          Fruit Size: Small to medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Armenian Cucumbers
+          Scientific Name: Cucumis melo var. flexuosus
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Light green
+          Fruit Size: Long, slender
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Lemon Cucumbers
+          Scientific Name: Cucumis sativus 'Lemon'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Yellow
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Scab Cucumbers
+          Scientific Name: Cucumis sativus 'Scab'
+          Treatment: Water regularly, fertilize monthly, trellis for support.
+          Family: Cucurbitaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 3-5 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow
+          Fruit Color: Green
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Powdery Mildew
+          Scientific Name: Podosphaera xanthii
+          Family: Erysiphaceae
+          Type: Fungal Disease
+          Affects: Cucumbers, melons, squash, pumpkins
+          Symptoms: White powdery spots on leaves and stems, yellowing and browning of leaves, stunted growth
+          Spread: Airborne spores, water splashes, infected plant material
+          Prevention: Plant resistant varieties, provide good air circulation, avoid overhead watering, apply fungicides if necessary
+          Treatment: Remove and destroy infected plant material, apply fungicides, improve cultural practices
+      </li>
+      <li>Bacterial Wilt
+          Scientific Name: Erwinia tracheiphila
+          Treatment: Remove and destroy infected plants, control cucumber beetles, improve cultural practices.
+          Family: Enterobacteriaceae
+          Type: Bacterial Disease
+          Affects: Cucumbers, melons, squash, pumpkins
+          Symptoms: Wilting of leaves and stems, yellowing of leaves, stunted growth, plant death
+          Spread: Cucumber beetles, contaminated tools and equipment
+          Prevention: Control cucumber beetles, rotate crops, avoid planting in infested soil
+          Treatment: Remove and destroy infected plants, control cucumber beetles, improve cultural practices
+      </li>
       
       <!-- Asparagus -->
-      <li>Jersey Knight Asparagus</li>
-      <li>Jersey Giant Asparagus</li>
-      <li>Jersey Supreme Asparagus</li>
-      <li>Mary Washington Asparagus</li>
-      <li>Purple Passion Asparagus</li>
+       </div class = "asparagus">
+      <li>Jersey Knight Asparagus
+          Scientific Name: Asparagus officinalis 'Jersey Knight'
+          Treatment: Water regularly, fertilize in spring, mulch to retain moisture.
+          Family: Asparagaceae
+          Type: Perennial Vegetable
+          Height: 3-5 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring to early summer
+          Flower Color: White, pink
+          Fruit Color: Red berries
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Jersey Giant Asparagus
+          Scientific Name: Asparagus officinalis 'Jersey Giant'
+          Treatment: Water regularly, fertilize in spring, mulch to retain moisture.
+          Family: Asparagaceae
+          Type: Perennial Vegetable
+          Height: 3-5 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring to early summer
+          Flower Color: White, pink
+          Fruit Color: Red berries
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Jersey Supreme Asparagus
+          Scientific Name: Asparagus officinalis 'Jersey Supreme'
+          Treatment: Water regularly, fertilize in spring, mulch to retain moisture.
+          Family: Asparagaceae
+          Type: Perennial Vegetable
+          Height: 3-5 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring to early summer
+          Flower Color: White, pink
+          Fruit Color: Red berries
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Mary Washington Asparagus
+          Scientific Name: Asparagus officinalis 'Mary Washington'
+          Treatment: Water regularly, fertilize in spring, mulch to retain moisture.
+          Family: Asparagaceae
+          Type: Perennial Vegetable
+          Height: 3-5 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring to early summer
+          Flower Color: White, pink
+          Fruit Color: Red berries
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Purple Passion Asparagus
+          Scientific Name: Asparagus officinalis 'Purple Passion'
+          Treatment: Water regularly, fertilize in spring, mulch to retain moisture.
+          Family: Asparagaceae
+          Type: Perennial Vegetable
+          Height: 3-5 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring to early summer
+          Flower Color: White, pink
+          Fruit Color: Red berries
+          Fruit Size: Small
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
 
       <!-- Lettuce -->
-      <li>Iceberg Lettuce</li>
-      <li>Romaine Lettuce</li>
-      <li>Leaf Lettuce</li>
-      <li>Prickly Lettuce</li>
-      <li>Tall-Blue Lettuce</li>
-      <li>Tall-Wild Lettuce</li>
+       <div class = "lettuce">
+      <li>Iceberg Lettuce
+          Scientific Name: Lactuca sativa 'Iceberg'
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Light green, crisp
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Romaine Lettuce
+          Scientific Name: Lactuca sativa 'Romaine'
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 6-12 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Dark green, crisp
+          Head Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Leaf Lettuce
+          Scientific Name: Lactuca sativa 'Leaf'
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Various (green, red, purple), tender
+          Head Size: Loose leaves
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Prickly Lettuce
+          Scientific Name: Lactuca serriola
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Annual/Perennial Herb
+          Height: 1-3 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, prickly edges
+          Head Size: Loose leaves
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Tall-Blue Lettuce
+          Scientific Name: Lactuca biennis
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Biennial Herb
+          Height: 3-6 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, blue-green
+          Head Size: Loose leaves
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Tall-Wild Lettuce
+          Scientific Name: Lactuca canadensis
+          Treatment: Water regularly, harvest outer leaves, protect from pests.
+          Family: Asteraceae
+          Type: Biennial Herb
+          Height: 3-6 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer to fall
+          Leaf Color: Green, blue-green
+          Head Size: Loose leaves
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
 
       <!-- Beans -->
-      <li>Green Beans</li>
-      <li>Provider Beans</li>
-      <li>Blue Lake Beans</li>
-      <li>Contender Beans</li>
-      <li>Roma II Beans</li>
-      <li>Kentucky Wonder Beans</li>
-      <li>Blue Lake Pole Beans</li>
-      <li>Bush Limas Beans</li>
-      <li>Pole Limas Beans</li>
-      <li>Dry Beans</li>
-      <li>Wax Beans</li>
+       <div class = "beans">
+      <li>Green Beans
+          Scientific Name: Phaseolus vulgaris 'Green'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Provider Beans
+          Scientific Name: Phaseolus vulgaris 'Provider'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Blue Lake Beans
+          Scientific Name: Phaseolus vulgaris 'Blue Lake'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Contender Beans
+          Scientific Name: Phaseolus vulgaris 'Contender'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Roma II Beans
+          Scientific Name: Phaseolus vulgaris 'Roma II'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Kentucky Wonder Beans
+          Scientific Name: Phaseolus vulgaris 'Kentucky Wonder'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Blue Lake Pole Beans
+          Scientific Name: Phaseolus vulgaris 'Blue Lake Pole'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 4-6 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Bush Limas Beans
+          Scientific Name: Phaseolus lunatus 'Bush Limas'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches
+          Spread: 12-18 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Pole Limas Beans
+          Scientific Name: Phaseolus lunatus 'Pole Limas'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 4-6 feet
+          Spread: 2-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Dry Beans
+          Scientific Name: Phaseolus vulgaris 'Dry'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Various (black, pinto, kidney, navy)
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Wax Beans
+          Scientific Name: Phaseolus vulgaris 'Wax'
+          Treatment: Water regularly, fertilize monthly, harvest when pods are firm.
+          Family: Fabaceae
+          Type: Annual Vegetable
+          Height: 12-18 inches (bush), 4-6 feet (pole)
+          Spread: 12-18 inches (bush), 2-3 feet (pole)
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: White, purple, pink
+          Fruit Color: Yellow
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
 
 
       <!-- Carrots -->
-      <li>Campbell Soup Variety 1374 Carrots</li>
-      <li>Danvers 126 Carrots</li>
-      <li>Spartan Bonus 80 Carrots</li>
-      <li>Nantes types Carrots</li>
-      <li>Napoli Carrots</li>
-      <li>Mokum Carrots</li>
-      <li>Nantindo Carrots</li>
-      <li>Bolero Carrots</li>
-      <li>Goldfinger Carrots</li>
-      <li>Envy Carrots</li>
-      <li>Maverick Carrots</li>
+       <div class = "carrots">
+      <li>Campbell Soup Variety 1374 Carrots
+          Scientific Name: Daucus carota 'Campbell Soup Variety 1374'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Danvers 126 Carrots
+          Scientific Name: Daucus carota 'Danvers 126'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Spartan Bonus 80 Carrots
+          Scientific Name: Daucus carota 'Spartan Bonus 80'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Nantes types Carrots
+          Scientific Name: Daucus carota 'Nantes'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Napoli Carrots
+          Scientific Name: Daucus carota 'Napoli'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Mokum Carrots
+          Scientific Name: Daucus carota 'Mokum'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Nantindo Carrots
+          Scientific Name: Daucus carota 'Nantindo'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Bolero Carrots
+          Scientific Name: Daucus carota 'Bolero'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Goldfinger Carrots
+          Scientific Name: Daucus carota 'Goldfinger'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Yellow
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Envy Carrots
+          Scientific Name: Daucus carota 'Envy'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Maverick Carrots
+          Scientific Name: Daucus carota 'Maverick'
+          Treatment: Water regularly, thin seedlings, harvest when roots are mature.
+          Family: Apiaceae
+          Type: Annual Vegetable
+          Height: 6-12 inches
+          Spread: 2-3 inches
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained, loose soil
+          USDA Hardiness Zones: 3-9
+          Bloom Time: Summer to fall
+          Root Color: Orange
+          Root Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
 
       <!-- Sweet Corn -->
-      <li>Silver Queen Sweet Corn</li>
-      <li>Luther Hill Sweet Corn</li>
-      <li>Stowell's Evergreen Sweet Corn</li>
-      <li>Incredible Sweet Corn</li>
-      <li>Bodacious RM Sweet Corn</li>
-      <li>Sugar Buns Sweet Corn</li>
-      <li>Wild Violet Sweet Corn</li>
+       <div class = "sweet-corn">
+      <li>Silver Queen Sweet Corn
+          Scientific Name: Zea mays 'Silver Queen'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: White kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Luther Hill Sweet Corn
+          Scientific Name: Zea mays 'Luther Hill'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Yellow kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Stowell's Evergreen Sweet Corn
+          Scientific Name: Zea mays 'Stowell's Evergreen'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Yellow kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Incredible Sweet Corn
+          Scientific Name: Zea mays 'Incredible'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Yellow kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Bodacious RM Sweet Corn
+          Scientific Name: Zea mays 'Bodacious RM'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Yellow kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Sugar Buns Sweet Corn
+          Scientific Name: Zea mays 'Sugar Buns'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Yellow kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
+      <li>Wild Violet Sweet Corn
+          Scientific Name: Zea mays 'Wild Violet'
+          Treatment: Water regularly, fertilize monthly, harvest when ears are full.
+          Family: Poaceae
+          Type: Annual Vegetable
+          Height: 6-8 feet
+          Spread: 1-2 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Summer
+          Flower Color: Yellow tassels
+          Fruit Color: Purple kernels
+          Fruit Size: Medium to large ears
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible vegetable, ornamental plant, container gardening
+      </li>
 
       <!-- Apples -->
-      <li>Gala Apple</li>
-      <li>Honeycrisp Apple</li>
-      <li>Fuji Apple</li>
-      <li>Granny Smith Apple</li>
-      <li>Golden Delicious Apple</li>
-      <li>Red Delicious Apple</li>
-      <li>McIntosh Apple</li>
-      <li>Ginger Gold Apple</li>
-      <li>Winesap Apple</li>
+       <div class = "apples">
+      <li>Gala Apple
+          Scientific Name: Malus domestica 'Gala'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red and yellow
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Honeycrisp Apple
+          Scientific Name: Malus domestica 'Honeycrisp'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red and yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Fuji Apple
+          Scientific Name: Malus domestica 'Fuji'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red and yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Granny Smith Apple
+          Scientific Name: Malus domestica 'Granny Smith'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Green
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Golden Delicious Apple
+          Scientific Name: Malus domestica 'Golden Delicious'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Red Delicious Apple
+          Scientific Name: Malus domestica 'Red Delicious'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>McIntosh Apple
+          Scientific Name: Malus domestica 'McIntosh'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red and green
+          Fruit Size: Medium
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Ginger Gold Apple
+          Scientific Name: Malus domestica 'Ginger Gold'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Yellow with red blush
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
+      <li>Winesap Apple
+          Scientific Name: Malus domestica 'Winesap'
+          Treatment: Water regularly, fertilize in spring, prune in winter.
+          Family: Rosaceae
+          Type: Deciduous Tree
+          Height: 10-15 feet
+          Spread: 10-15 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Spring
+          Flower Color: White to pink
+          Fruit Color: Red and yellow
+          Fruit Size: Medium to large
+          Wildlife Value: Provides food for birds and small mammals
+          Common Uses: Edible fruit, ornamental plant, container gardening
+      </li>
 
       <!-- Grass -->
-      <li>Kentucky Bluegrass</li>
-      <li>Japanese Stiltgrass</li>
-      <li>Perennial Ryegrass</li>
-      <li>Fine Fescues</li>
-      <li>Tall Fescue</li>
-      <li>Zoysiagrass</li>
+       <div class = "grass">
+      <li>Kentucky Bluegrass
+          Scientific Name: Poa pratensis
+          Treatment: Water as needed, mow regularly, fertilize in spring.
+          Family: Poaceae
+          Type: Perennial Grass
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Medium
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Late spring to early summer
+          Flower Color: Greenish-blue
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Lawns, pastures, erosion control, ornamental plantings
+      </li>
+      <li>Japanese Stiltgrass
+          Scientific Name: Microstegium vimineum
+          Treatment: Water as needed, mow regularly, control invasiveness.
+          Family: Poaceae
+          Type: Annual Grass
+          Height: 1-3 feet
+          Spread: 1-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-9
+          Bloom Time: Late summer to fall
+          Flower Color: Greenish-white
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Ground cover, erosion control, ornamental plantings
+      </li>
+      <li>Perennial Ryegrass
+          Scientific Name: Lolium perenne
+          Treatment: Water as needed, mow regularly, fertilize in spring.
+          Family: Poaceae
+          Type: Perennial Grass
+          Height: 1-3 feet
+          Spread: 1-3 feet
+          Growth Rate: Fast
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-8
+          Bloom Time: Late spring to early summer
+          Flower Color: Greenish-purple
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Lawns, pastures, erosion control, ornamental plantings
+      </li>
+      <li>Fine Fescues
+          Scientific Name: Festuca spp.
+          Treatment: Water as needed, mow regularly, fertilize in spring.
+          Family: Poaceae
+          Type: Perennial Grass
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Medium
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 3-7
+          Bloom Time: Late spring to early summer
+          Flower Color: Greenish-blue
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Lawns, pastures, erosion control, ornamental plantings
+      </li>
+      <li>Tall Fescue
+          Scientific Name: Festuca arundinacea
+          Treatment: Water as needed, mow regularly, fertilize in spring.
+          Family: Poaceae
+          Type: Perennial Grass
+          Height: 1-3 feet
+          Spread: 1-3 feet
+          Growth Rate: Medium
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 4-9
+          Bloom Time: Late spring to early summer
+          Flower Color: Greenish-blue
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Lawns, pastures, erosion control, ornamental plantings
+      </li>
+      <li>Zoysiagrass
+          Scientific Name: Zoysia spp.
+          Treatment: Water as needed, mow regularly, fertilize in spring.
+          Family: Poaceae
+          Type: Perennial Grass
+          Height: 6-12 inches
+          Spread: 6-12 inches
+          Growth Rate: Slow
+          Sun Exposure: Full sun to partial shade
+          Soil Type: Well-drained soil
+          USDA Hardiness Zones: 5-10
+          Bloom Time: Late spring to early summer
+          Flower Color: Greenish-purple
+          Wildlife Value: Provides food and habitat for birds and small mammals
+          Common Uses: Lawns, pastures, erosion control, ornamental plantings
+      </li>
 
     </ul>
   </body>
