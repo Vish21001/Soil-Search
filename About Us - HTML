@@ -1,19 +1,45 @@
 <!-- Starts Program -->
 <!DOCTYPE html>
-<!-- HTML Folder -->
-<html>
-  <head>
-    <!-- Sets Title as About Us -->
-<title>About Us</title>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Soil Search is website title and About Us is tab title -->
-    <title>Soil Search ! - About Us</title> 
-<link rel="stylesheet" href="style.css" />
-  </head>
-  <!-- Description about me -->
-  <body>
-    My name is Vishisht Agarwal and I am a ninth grader at Millburn High School. I have a passion for coding and technology. I have been coding for about 1 year now and I love to create new projects and learn new things. I am also very interested in environmental science and I wanted to create a project that would help people take care of their plants and trees. I hope you enjoy using Soil Search and find it helpful!
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Soil Search ! - About Us</title>
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation back to main -->
+
+
+    <!-- About Section -->
+    <main>
+        <h1>About Us</h1>
+        <p>
+
+            Soil Search is a project aimed at helping individuals identify and care for common plants in their environment.
+
+        </p>
+        <h2>My Story</h2>
+        <p>
+            I am a student at Millburn High School, NJ, and am very interested in plants and I have a small garden at my home. I wanted to create a website that can help people identify plants and provide them with information on how to care for them. This website
+            is a result of my passion for plants and my desire to share that passion with others.
+        </p>
+        <h3>Values and Mission</h3>
+        <p>
+            Our mission is to provide accessible information and resources for plant enthusiasts, gardeners, and anyone interested in learning more about the flora around them.
+        </p>
+        <h4>How we are unique</h4>
+        <p>
+            We combine technology and botany to create an interactive platform that not only educates but also engages users in the world of plants. Additionally, we provide information and photos for any plant enthusiasts and gardeners to learn and provide inspiration.
+        </p>
+    </main>
+</body>
+
 </html>
-    
