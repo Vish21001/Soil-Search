@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Search ! - Soil AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Soil AI</h1>
+        <p>
+            Welcome to the Soil AI page! 🌱 Here, our AI technology analyzes photos of soil and plants to help determine:
+        </p>
+        <ul>
+            <li>Soil health and nutrient levels</li>
+            <li>Plant hydration needs</li>
+            <li>Possible plant diseases</li>
+        </ul>
+        <p>
+            Upload your soil or plant photos through our system, and get instant feedback to keep your garden and environment healthy.
+        </p>
+    </main>
+</body>
+
+</html>
