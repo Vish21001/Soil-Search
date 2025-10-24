@@ -1,1 +1,272 @@
+// Plant.id API Integration
+// This file handles plant identification using the Plant.id API
 
+// Plant.id API key & selected image variable
+const plantApiKey = "Ih18iOt46K6nSk7GHg24CCfefCFHTi2OyDmpna3dn3nUsYvG3K";
+let selectedImage = null;
+
+// Initialize when DOM is loaded
+document.addEventListener("DOMContentLoaded", function() {
+    initializePlantId();
+});
+
+function initializePlantId() {
+    // Check if API key is set
+    if (plantApiKey === "Ih18iOt46K6nSk7GHg24CCfefCFHTi2OyDmpna3dn3nUsYvG3K") {
+        console.warn("Please set your Plant.id API key in plant-id.js file");
+        alert("Developer: Please add your Plant.id API key to the plant-id.js file");
+        return;
+    }
+
+    // Get DOM elements
+    const uploadArea = document.getElementById("uploadArea");
+    const plantImageInput = document.getElementById("plantImageInput");
+    const identifyPlantBtn = document.getElementById("identifyPlantBtn");
+    const plantResults = document.getElementById("plantResults");
+
+    // Upload area click
+    uploadArea.addEventListener("click", function() {
+        plantImageInput.click();
+    });
+
+    // File input change
+    plantImageInput.addEventListener("change", function(event) {
+        const file = event.target.files[0];
+
+        if (file) {
+            // Check file type
+            if (!file.type.startsWith("image/")) {
+                alert("Please select an image file");
+                return;
+            }
+
+            // Check file size (max 10MB)
+            if (file.size > 10 * 1024 * 1024) {
+                alert("Image file is too large. Please select an image under 10MB");
+                return;
+            }
+
+            // Convert to base64
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                selectedImage = e.target.result;
+
+                // Update upload area to show selected image
+                const uploadPlaceholder = uploadArea.querySelector(".upload-placeholder");
+                uploadPlaceholder.innerHTML = `
+                    <img src="${selectedImage}" alt="Selected plant" style="max-width: 200px; max-height: 200px; border-radius: 8px;">
+                    <p>✅ Image selected: ${file.name}</p>
+                    <small>Click "Identify Plant" button below</small>
+                `;
+
+                // Show identify button
+                identifyPlantBtn.style.display = "block";
+            };
+
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // Identify plant button clicker
+    identifyPlantBtn.addEventListener("click", function() {
+        // Checks if there is a selected image
+        if (!selectedImage) {
+            alert("Please select an image first");
+            return;
+        }
+
+        // Check if API key is set
+        if (plantApiKey === "Ih18iOt46K6nSk7GHg24CCfefCFHTi2OyDmpna3dn3nUsYvG3K") {
+            alert("Developer: Please add your Plant.id API key to the plant-id.js file");
+            return;
+        }
+        // Call function to identify plant
+        identifyPlant(selectedImage);
+    });
+
+    // Drag and drop functionality
+    uploadArea.addEventListener("dragover", function(e) {
+        e.preventDefault();
+        uploadArea.style.backgroundColor = "rgba(76, 175, 80, 0.1)";
+    });
+    // Drage image in image box
+    uploadArea.addEventListener("dragleave", function(e) {
+        e.preventDefault();
+        uploadArea.style.backgroundColor = "";
+    });
+    // Drops image in image box
+    uploadArea.addEventListener("drop", function(e) {
+        e.preventDefault();
+        uploadArea.style.backgroundColor = "";
+        // Transfers file to image box
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+            plantImageInput.files = files;
+            plantImageInput.dispatchEvent(new Event("change"));
+        }
+    });
+}
+
+// Function to identify plant using Plant.id API
+async function identifyPlant(imageBase64) {
+    const resultsContent = document.getElementById("resultsContent");
+    const identifyPlantBtn = document.getElementById("identifyPlantBtn");
+
+    // Show loading state
+    identifyPlantBtn.textContent = "Identifying... 🔍";
+    identifyPlantBtn.disabled = true;
+
+    // Loading message
+    resultsContent.innerHTML = `
+        <div style="text-align: center; padding: 20px;">
+            <div style="font-size: 24px;">🔍</div>
+            <p>Analyzing your plant image...</p>
+            <small>This may take a few seconds</small>
+        </div>
+    `;
+
+    // Initialize results section
+    document.getElementById("plantResults").style.display = "block";
+
+    try {
+        // Prepare the request data
+        const requestData = {
+            images: [imageBase64.split(",")[1]], // Remove data:image/jpeg;base64, prefix
+            modifiers: ["crops", "similar_images"],
+            plant_details: ["common_names", "url", "name_authority", "wiki_description", "taxonomy"]
+        };
+
+        // Make API call to Plant.id
+        const response = await fetch("https://api.plant.id/v3/identification", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Api-Key": plantApiKey
+            },
+            // Sends the request data as a JSON string
+            body: JSON.stringify(requestData)
+        });
+
+        // Errorer checker
+        if (!response.ok) {
+            throw new Error(`API request failed: ${response.status} ${response.statusText}`);
+        }
+
+        // Waits for the API response data from plant.id
+        const data = await response.json();
+
+        // Display results
+        displayPlantResults(data);
+
+        // Error catcher in plant identification
+    } catch (error) {
+        console.error("Error identifying plant:", error);
+
+        resultsContent.innerHTML = `
+            <div style="color: #f44336; text-align: center; padding: 20px;">
+                <div style="font-size: 24px;">❌</div>
+                <p><strong>Error identifying plant</strong></p>
+                <small>${error.message}</small>
+                <br><br>
+                <small>Please check your API key and try again</small>
+            </div>
+        `;
+    }
+    // Reset button
+    finally {
+        identifyPlantBtn.textContent = "Identify Plant 🌿";
+        identifyPlantBtn.disabled = false;
+    }
+}
+
+// Function to display plant identification results
+function displayPlantResults(data) {
+    const resultsContent = document.getElementById("resultsContent");
+
+    if (!data.suggestions || data.suggestions.length === 0) {
+        resultsContent.innerHTML = `
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 24px;">🤔</div>
+                <p>No plant matches found</p>
+                <small>Try uploading a clearer image of the plant</small>
+            </div>
+        `;
+        return;
+    }
+
+    // Get top 3 suggestions
+    const topSuggestions = data.suggestions.slice(0, 3);
+
+    let resultsHTML = "";
+
+    topSuggestions.forEach((suggestion, index) => {
+                const confidence = Math.round(suggestion.probability * 100);
+                const plantName = suggestion.plant_name || "Unknown plant";
+                const commonNames = suggestion.plant_details ? .common_names || [];
+                const description = suggestion.plant_details ? .wiki_description ? .value || "No description available";
+                const wikiUrl = suggestion.plant_details ? .url || "#";
+
+                resultsHTML += `
+            <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 15px; background: #f9f9f9;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <h5 style="margin: 0; color: #2e7d32;">${index + 1}. ${plantName}</h5>
+                    <span style="background: #4caf50; color: white; padding: 4px 8px; border-radius: 12px; font-size: 12px;">
+                        ${confidence}% match
+                    </span>
+                </div>
+                
+                ${commonNames.length > 0 ? `
+                    <p style="margin: 5px 0; font-size: 14px; color: #666;">
+                        <strong>Common names:</strong> ${commonNames.slice(0, 3).join(", ")}
+                    </p>
+                ` : ""}
+                
+                <p style="margin: 10px 0; font-size: 14px; line-height: 1.4;">
+                    ${description.length > 150 ? description.substring(0, 150) + "..." : description}
+                </p>
+                
+                ${wikiUrl !== "#" ? `
+                    <a href="${wikiUrl}" target="_blank" style="color: #1976d2; text-decoration: none; font-size: 14px;">
+                        📖 Learn more →
+                    </a>
+                ` : ""}
+            </div>
+        `;
+    });
+    
+    resultsContent.innerHTML = resultsHTML;
+    
+    // Add a "Try Another Image" button
+    resultsContent.innerHTML += `
+        <div style="text-align: center; margin-top: 20px;">
+            <button onclick="resetPlantIdentification()" style="background: #4caf50; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer;">
+                📷 Try Another Image
+            </button>
+        </div>
+    `;
+}
+
+// Function to reset plant identification
+function resetPlantIdentification() {
+    selectedImage = null;
+    
+    const uploadArea = document.getElementById("uploadArea");
+    const uploadPlaceholder = uploadArea.querySelector(".upload-placeholder");
+    const identifyPlantBtn = document.getElementById("identifyPlantBtn");
+    const plantResults = document.getElementById("plantResults");
+    const plantImageInput = document.getElementById("plantImageInput");
+    
+    // Reset upload area
+    uploadPlaceholder.innerHTML = `
+        <span class="upload-icon">📷</span>
+        <p>Click here or drag & drop a plant image</p>
+        <small>Supported formats: JPG, PNG, WebP</small>
+    `;
+    
+    // Hide elements
+    identifyPlantBtn.style.display = "none";
+    plantResults.style.display = "none";
+    
+    // Clear file input
+    plantImageInput.value = "";
+}
