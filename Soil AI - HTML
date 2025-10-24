@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soil Search ! - Soil AI</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-
 <body>
 
-    <!-- Main Content -->
+    <!-- Description of the Soil AI page -->
     <main>
         <h1>Soil AI</h1>
         <p>
             Welcome to the Soil AI page! 🌱 Here, our AI technology analyzes photos of soil and plants to help determine:
         </p>
-        <ul>
-            <li>Soil health and nutrient levels</li>
-            <li>Plant hydration needs</li>
-            <li>Possible plant diseases</li>
-        </ul>
-        <p>
-            Upload your soil or plant photos through our system, and get instant feedback to keep your garden and environment healthy.
-        </p>
+        <!-- Instructions for using Soil AI -->
+        <div class="instructions">
+            <ol>
+                <li>Upload a clear image of the soil or plant.</li>
+                <li>Ensure the image is well-lit and in focus.</li>
+                <li>Click the "Analyze" button to get results.</li>
+            </ol>
+        </div>
+
+        <!-- upload image section -->
+        <div id="uploadArea" class="upload-section">
+            <div class="upload-placeholder">
+                <span class="upload-icon"></span>
+                <p>Click here or drag & drop a plant image</p>
+                <small>Supported formats: JPG, PNG, WebP (Max 10MB)</small>
+            </div>
+        </div>
+
+        <!-- Hidden File Input -->
+        <input type="file" id="plantImageInput" accept="image/*">
+        <!-- Analyze Button -->
+        <div style="text-align: center;">
+            <button id="identifyPlantBtn">Identify Plant 🌿</button>
+        </div>
+
+        <!-- Results Section -->
+        <div id="plantResults" class="results-section">
+            <h2>Analysis Results</h2>
+            <div id="resultsContent">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+
     </main>
+    <script src="plant-id.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 
 </html>
