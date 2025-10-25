@@ -10,8 +10,8 @@
 
     <title>Soil Search ! - Soil Health Analysis </title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-
+    <script src="script.js" defer></script>
+    <script src="plant-id.js" defer></script>
 </head>
 
 <body>
@@ -30,36 +30,140 @@
         <!-- Builds Navigation Tabs -->
         <nav class="centertabs">
             <ul class="other_tabs1">
-                <li class="tab" id="about-us" onclick="loadPage('about-us')">About Us</li>
                 <li class="tab" id="soil-ai" onclick="loadPage('soil-ai')">Soil AI</li>
                 <li class="tab" id="common-plants" onclick="loadPage('common-plants')">Common Plants</li>
             </ul>
         </nav>
     </header>
 
-    <!-- Introduction of Soil Search -->
-    <main class="" id="">
-        <h1 class="title">🌿 Soil Search 🌿</h1>
-        <p id="introduction"> Welcome to Soil Search. It is our mission to keep living phenonmenon safe. At Soil Search we use basic photos any user can take and see the plant's health. This will prevent plants from dying and causing danger to other people, such as trees falling
-            on power lines or houses.
-            <br>
-            <br>
-            <br> Users may take photos of ceratin plants and we will see its species and see how much water is required for that particular plant in an easily understandible and receptive response.</p>
+    <!-- Main -->
+    <main>
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <div class="hero-badge">Congressional App Challenge 2025</div>
+                <h1 class="hero-main-title">🌱 Soil Search 🌱</h1>
+                <p class="hero-tagline">Your Smart Companion for Plant Care Across All Seasons</p>
+                <p class="hero-description">
+                    Empowering gardeners and plant enthusiasts with AI-powered plant identification and comprehensive seasonal care guides. Created by Vish to make plant care accessible to everyone.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-hero btn-primary" onclick="loadPage('soil-ai')">Try Plant AI</button>
+                    <button class="btn-hero btn-secondary" onclick="loadPage('common-plants')">Explore Plants</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://cdn.pixabay.com/photo/2020/12/19/11/41/smartphone-5844157_640.jpg" alt="Plant identification with phone" class="hero-img" />
+            </div>
+        </section>
 
-        <!-- Picture of tree -->
-        <div class="image-container">
-            <img id="tree1" src="https://cdn.pixabay.com/photo/2020/12/19/11/41/smartphone-5844157_640.jpg" alt="" />
-        </div>
+        <!-- Project Mission -->
+        <section class="mission-section">
+            <div class="mission-card">
+                <h2 class="section-heading">🎯 Our Mission</h2>
+                <p class="mission-text">
+                    Soil Search bridges the gap between technology and nature, helping people understand and care for their plants throughout changing seasons. Whether you're a beginner or experienced gardener, our platform provides instant plant identification and expert
+                    care recommendations.
+                </p>
+            </div>
+        </section>
 
-        <h2 class="subtitle1">English Oak Tree</h2>
-        <p class="description1"> Trees are a vital part of our ecosystem, providing oxygen, improving air quality, conserving water, preserving soil, and supporting wildlife. They also offer shade, reduce noise pollution, and enhance the beauty of our surroundings. Planting and
-            caring for trees is essential for a healthy environment and a sustainable future.</p>
+        <!-- Features Grid -->
+        <section class="features-section">
+            <h2 class="section-heading">✨ Platform Features</h2>
+            <div class="features-grid">
 
-        <!-- Picture of plant -->
-        <div class="image-container">
-            <img id="plant1" src="https://www.green.earth/hs-fs/hubfs/Planting%20trees.jpg?width=1800&height=1187&name=Planting%20trees.jpg" alt="" />
-        </div>
-        </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-box-title">AI-Powered Identification</h3>
+                    <p class="feature-box-text">
+                        Upload any plant photo and get instant identification using Plant.id API integration. Receive detailed information about species, care requirements, and growing conditions.
+                    </p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">Plant.id API</span>
+                        <span class="tech-badge">Image Recognition</span>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-box-title">Comprehensive Plant Database</h3>
+                    <p class="feature-box-text">
+                        Access extensive research on common plants including trees, flowers, vegetables, and more. Each entry includes scientific data, care instructions, and seasonal tips.
+                    </p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">75 Plants</span>
+                        <span class="tech-badge">Research-Based</span>
+                    </div>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon">🌦️</div>
+                    <h3 class="feature-box-title">Seasonal Care Guides</h3>
+                    <p class="feature-box-text">
+                        Get tailored care recommendations based on seasons and climate zones. Learn when to plant, water, fertilize, and protect your plants year-round.
+                    </p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">USDA Zones</span>
+                        <span class="tech-badge">Climate-Aware</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works">
+            <h2 class="section-heading">🚀 How It Works</h2>
+            <div class="steps-container">
+
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Capture or Upload</h3>
+                    <p class="step-description">Take a photo of any plant or upload an existing image from your device.</p>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">AI Analysis</h3>
+                    <p class="step-description">Our integrated Plant.id API analyzes the image and identifies the species.</p>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Get Care Tips</h3>
+                    <p class="step-description">Receive detailed care instructions, seasonal tips, and growing recommendations.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About the Creator -->
+        <section class="creator-section">
+            <div class="creator-card">
+                <h2 class="section-heading">👨‍💻 About This Project</h2>
+                <p class="creator-text">
+                    Soil Search was created by <strong>Vishisht Agarwal</strong> for the Congressional App Challenge 2025. This project combines cutting-edge AI technology with comprehensive botanical research to create a platform that makes plant care
+                    accessible and educational for everyone.
+                </p>
+                <p class="creator-text">
+                    Through extensive research and API integration, Soil Search demonstrates how technology can help people connect with nature and develop sustainable gardening practices across all seasons.
+                </p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="cta-card">
+                <h2 class="cta-title">Ready to Identify Your Plants?</h2>
+                <p class="cta-text">Start using Soil Search today and discover the power of AI-assisted plant care!</p>
+                <button class="btn-cta" onclick="loadPage('soil-ai')">Get Started Now</button>
+            </div>
+        </section>
 
     </main>
     <!-- Scripts -->
