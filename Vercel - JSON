@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+        { "source": "/soil-ai", "destination": "/soil-ai.html" },
+        { "source": "/common-plants", "destination": "/common-plants.html" }
+    ]
+}
