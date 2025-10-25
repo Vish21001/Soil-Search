@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soil Search – Soil AI</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="plant-id.js" defer></script>
+</head>
 
-    <!-- Description of the Soil AI page -->
+<body>
     <main>
         <h1>Soil AI</h1>
         <p>
-            Welcome to the Soil AI page! 🌱 Here, our AI technology analyzes photos of soil and plants to help determine:
+            Upload a clear photo of a plant (leaf, flower, or whole plant). We’ll use the Plant ID API to suggest matches.
         </p>
-        <!-- Instructions for using Soil AI -->
-        <div class="instructions">
-            <ol>
-                <li>Upload a clear image of the soil or plant.</li>
-                <li>Ensure the image is well-lit and in focus.</li>
-                <li>Click the "Analyze" button to get results.</li>
-            </ol>
-        </div>
 
-        <!-- upload image section -->
-        <div id="uploadArea" class="upload-section">
+        <!-- Simple uploader. The JS will attach click/drag handlers and preview. -->
+        <div id="uploadArea" class="upload-section" style="border: 2px dashed #cfe8cf; padding: 20px; border-radius: 8px; text-align:center; background: rgba(0,0,0,0.1); cursor: pointer;">
             <div class="upload-placeholder">
-                <span class="upload-icon"></span>
-                <p>Click here or drag & drop a plant image</p>
-                <small>Supported formats: JPG, PNG, WebP (Max 10MB)</small>
+                <p style="margin-bottom: 6px; font-weight: 600;">Click here or drag & drop a plant image</p>
+                <small>JPG, PNG, or WebP • Max 10 MB</small>
             </div>
         </div>
 
-        <!-- Hidden File Input -->
-        <input type="file" id="plantImageInput" accept="image/*">
-        <!-- Analyze Button -->
-        <div style="text-align: center;">
-            <button id="identifyPlantBtn">Identify Plant 🌿</button>
+        <input type="file" id="plantImageInput" accept="image/*" style="display:none" />
+
+        <div style="text-align:center; margin-top: 12px;">
+            <button id="identifyPlantBtn" style="display:none; background:#2d6a4f; color:white; border:none; padding:10px 16px; border-radius:6px; cursor:pointer;">
+        Identify Plant
+      </button>
         </div>
 
-        <!-- Results Section -->
-        <div id="plantResults" class="results-section">
-            <h2>Analysis Results</h2>
-            <div id="resultsContent">
-                <!-- Results will be displayed here -->
-            </div>
-        </div>
-
+        <section id="plantResults" class="results-section" style="display:none; margin-top: 24px;">
+            <h2 style="margin-bottom:10px;">Results</h2>
+            <div id="resultsContent"></div>
+        </section>
     </main>
-    <script src="plant-id.js"></script>
-    <script src="script.js"></script>
-
 </body>
-
 
 </html>
