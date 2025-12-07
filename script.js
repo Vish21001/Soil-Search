@@ -1,35 +1,36 @@
-// Simple client-side router that loads page fragments into <main>
-function loadPage(page) {
-    const main = document.querySelector("main");
+document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll(".nav-links a[data-page]");
+    const mainContainer = document.getElementById("app");
 
-    const routes = {
-        "home": "index.html",
-        "about-us": "about-us.html",
-        "soil-ai": "soil-ai.html",
-        "common-plants": "common-plants.html"
-    };
+    // Simple router: loads HTML content into main container
+    links.forEach(link => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const page = link.dataset.page;
+            loadPage(page);
+        });
+    });
 
-    const target = routes[page];
-    if (!target) {
-        main.innerHTML = "<h1>404 Not Found</h1><p>The requested page was not found.</p>";
-        return;
+    function loadPage(page) {
+        let file = "";
+        switch(page) {
+            case "soil-ai": file = "soil-ai.html"; break;
+            case "plant-id": file = "plant-id.html"; break;
+            case "common-plants": file = "common-plants.html"; break;
+            case "visualizer": file = "analytics.html"; break;
+            default: file = "index.html"; break;
+        }
+
+        fetch(file)
+            .then(response => response.text())
+            .then(html => {
+                mainContainer.innerHTML = html;
+            })
+            .catch(err => {
+                mainContainer.innerHTML = `<p>Error loading page: ${err}</p>`;
+            });
     }
 
-    fetch(target)
-        .then((response) => response.text())
-        .then((html) => {
-            // Try to extract just the <main> content if a full HTML doc was fetched
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            const innerMain = doc.querySelector("main");
-            main.innerHTML = innerMain ? innerMain.innerHTML : html;
-            // If this is the Soil AI page, initialize its UI
-            if (page === 'soil-ai' && typeof window.initializePlantIdUI === 'function') {
-                window.initializePlantIdUI();
-            }
-        })
-        .catch((error) => {
-            console.error("Error loading page:", error);
-            main.innerHTML = "<h1>Error</h1><p>Could not load the page.</p>";
-        });
-}
+    // Load home page by default
+    loadPage("home");
+});
