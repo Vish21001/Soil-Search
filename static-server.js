@@ -1,83 +1,53 @@
-// Tiny no-deps static file server for this project
-// Usage:
-//   1) Open a terminal in this folder (Soil-Search)
-//   2) Run: node static-server.js
-//   3) Browse: http://localhost:8080
+import express from "express";
+import path from "path";
+import fs from "fs";
 
-const http = require('http');
-const fs = require('fs');
-const path = require('path');
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-const ROOT = __dirname;
-const PORT = process.env.PORT || 8080;
+// Serve all static files
+const __dirname = path.resolve();
+app.use(express.static(__dirname));
 
-const types = {
-    '.html': 'text/html; charset=utf-8',
-    '.css': 'text/css; charset=utf-8',
-    '.js': 'application/javascript; charset=utf-8',
-    '.json': 'application/json; charset=utf-8',
-    '.png': 'image/png',
-    '.jpg': 'image/jpeg',
-    '.jpeg': 'image/jpeg',
-    '.webp': 'image/webp',
-    '.svg': 'image/svg+xml',
-    '.ico': 'image/x-icon'
-};
+// Load soil data from JSON database
+function loadSoilData() {
+    const dbPath = path.join(__dirname, "soil-data.json");
 
-function safeJoin(root, target) {
-    const p = path.join(root, target);
-    const rel = path.relative(root, p);
-    if (rel.startsWith('..') || path.isAbsolute(rel)) return null; // block path traversal
-    return p;
-}
-
-const server = http.createServer((req, res) => {
-    let reqPath = decodeURIComponent(req.url.split('?')[0]);
-    if (reqPath === '/' || reqPath === '') reqPath = '/index.html';
-
-    const filePath = safeJoin(ROOT, reqPath);
-    if (!filePath) {
-        res.writeHead(400);
-        res.end('Bad Request');
-        return;
+    if (fs.existsSync(dbPath)) {
+        const raw = fs.readFileSync(dbPath, "utf-8");
+        return JSON.parse(raw);
     }
 
-    fs.stat(filePath, (err, stat) => {
-        if (err) {
-            res.writeHead(404);
-            res.end('Not Found');
-            return;
+    // Fallback mock data if no DB exists
+    return [
+        {
+            pH: 6.5,
+            nitrogen: 40,
+            phosphorus: 20,
+            potassium: 35,
+            moisture: 55,
+            soil_type: "Loamy",
+            timestamp: "2024-01-05T10:00:00Z"
+        },
+        {
+            pH: 7.1,
+            nitrogen: 38,
+            phosphorus: 25,
+            potassium: 30,
+            moisture: 60,
+            soil_type: "Sandy",
+            timestamp: "2024-01-06T12:00:00Z"
         }
+    ];
+}
 
-        if (stat.isDirectory()) {
-            // Try to serve index.html inside the directory
-            const idx = path.join(filePath, 'index.html');
-            fs.readFile(idx, (e, data) => {
-                if (e) {
-                    res.writeHead(404);
-                    res.end('Not Found');
-                    return;
-                }
-                res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-                res.end(data);
-            });
-            return;
-        }
-
-        const ext = path.extname(filePath).toLowerCase();
-        const type = types[ext] || 'application/octet-stream';
-        fs.readFile(filePath, (e, data) => {
-            if (e) {
-                res.writeHead(500);
-                res.end('Internal Server Error');
-                return;
-            }
-            res.writeHead(200, { 'Content-Type': type });
-            res.end(data);
-        });
-    });
+// API endpoint: return soil data as JSON
+app.get("/soil-data", (req, res) => {
+    const data = loadSoilData();
+    res.json(data);
 });
 
-server.listen(PORT, () => {
+// Launch server
+app.listen(PORT, () => {
     console.log(`Static server running at http://localhost:${PORT}`);
 });
