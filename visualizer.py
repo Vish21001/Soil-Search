@@ -2,9 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import requests
 
-# Pull Data From Your Existing API
-API_URL = "http://localhost:5000/data"  # ← replace with your API endpoint
-
+# Pull Data From API
+API_URL = "http://localhost:3000/soil-data"
 response = requests.get(API_URL)
 data = response.json()
 
@@ -12,14 +11,13 @@ df = pd.DataFrame(data)
 
 # Soil Nutrient Bar Chart
 nutrients = ["nitrogen", "phosphorus", "potassium"]
-
 df[nutrients].mean().plot(kind="bar")
 plt.title("Average Soil Nutrient Levels")
 plt.xlabel("Nutrients")
 plt.ylabel("Level")
 plt.tight_layout()
 plt.savefig("nutrient_levels.png")
-plt.clf()  # clear figure for next chart
+plt.clf()
 
 # pH Distribution Histogram
 plt.hist(df["pH"], bins=10)
@@ -52,4 +50,4 @@ if "soil_type" in df.columns:
     plt.savefig("soil_type_distribution.png")
     plt.clf()
 
-print("✔ All graphs generated successfully!")
+print("✔ Analytics generated successfully.")
